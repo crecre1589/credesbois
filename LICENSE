@@ -1,0 +1,10 @@
+credesbois - Copyright (c) 2026 the credesbois author. All rights reserved.
+
+The credesbois binary is proprietary software, distributed in binary form only. You may download and run it to mine
+NEB. You may not modify, patch, repackage or redistribute modified copies of the binary: a modified binary refuses to
+start (integrity check).
+
+Third-party components keep their own licenses, listed in THIRD_PARTY_NOTICES: the NEB reference code (Apache License
+2.0, full text in LICENSE-NEB-Apache-2.0) and the NEB datasets (NASA Exoplanet Archive; Astronet-Triage-v2, CC BY 4.0).
+
+The HiveOS scripts (h-config.sh, h-run.sh, h-stats.sh, h-manifest.conf) may be freely copied and adapted.
