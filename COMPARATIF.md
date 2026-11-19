@@ -10,9 +10,13 @@ Les MH/s affiches ne se comparent pas d un mineur a l autre, car chacun compte a
 | RTX 5070 Ti | HiveOS, limite 250 W, memoire 14301 MHz, coeur en boost auto | credesbois 0.0.1 | 1 % | 117 / 127 / 123 MH/s | ~148 MH/s (moteur mesure a 149.8 MH/s +-10 %, moins 1 % de frais) |
 | RTX 5070 Ti | idem | Aria 3.0.0 | 1 % | -- / -- / 104.5 MH/s | 119.6 MH/s +-10 % |
 | RTX 5070 Ti | idem | suprminer 1.9.47 | 0 % | 67 / 71 / 68.7 MH/s | 67.8 MH/s +-0.7 % |
+| -- | -- | ORCO (orconeb), mineur NEB solo diffuse par Makertronic | 0 % | non benchee (binaire tiers non execute) | non benchee (binaire tiers non execute) |
 
 Sur RTX 5070 Ti, credesbois rapporte environ **+25 % par rapport a Aria 3.0.0** et environ **2.2x suprminer 1.9.47**
 (rendement cote pool, frais compris).
+
+ORCO (orconeb), mineur NEB solo, n a pas ete teste : son binaire n a ete ni
+telecharge ni execute pour ce comparatif.
 
 Les mesures sur RTX 3060 Ti, 3070, 4070 Ti Super, 4080 et 5060 Ti sont **a venir**, avec la meme methode. Aucun chiffre
 n est donne pour ces cartes tant qu il n a pas ete mesure.
@@ -39,6 +43,7 @@ Pool-side measured yield, on the same card with the same overclock (RTX 5070 Ti,
 
 - credesbois 0.0.1: about 148 MH/s, including the 1 % fee;
 - Aria 3.0.0: 119.6 MH/s +-10 %;
-- suprminer 1.9.47: 67.8 MH/s +-0.7 %.
+- suprminer 1.9.47: 67.8 MH/s +-0.7 %;
+- ORCO (orconeb, solo NEB miner distributed by Makertronic, 0 % fee): not benchmarked (third-party binary not run).
 
 The other cards will be added once measured. The method is described above, in French.
